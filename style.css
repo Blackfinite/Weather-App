@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+body{
+    background-color: #96bdc6;
+}
+.container{
+    background-color: #e0dddd;
+    max-width: 600px;
+    text-align: center;
+    padding:20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0, 0.6);
+    margin: 40px auto;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex:1 */
+}
+form input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width:70%;
+    border : none;
+    outline:none;
+    border-radius:5px;
+}
+form input[type="submit"]{
+    padding: 10px 20px;
+    color:white;
+    border : none;
+    background-color: rgb(222, 24, 24);
+    border-radius:5px;
+    font-size:18px;
+
+}
+form input[type="submit"]:hover{
+    background-color: red;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    
+}
+.icon img{
+    width:100px;
+    height:100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.temperature{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.description{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap:20px; */
+}
+.details > div{
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 40px;
+    align-items: center;
+    flex:1
+}
